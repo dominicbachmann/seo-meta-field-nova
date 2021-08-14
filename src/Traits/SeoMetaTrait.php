@@ -1,8 +1,8 @@
 <?php
 
-namespace Gwd\SeoMeta\Traits;
+namespace Dominicbachmann\SeoMeta\Traits;
 
-use Gwd\SeoMeta\Models\SeoMetaItem;
+use Dominicbachmann\SeoMeta\Models\SeoMetaItem;
 use Illuminate\Support\Facades\Storage;
 
 trait SeoMetaTrait

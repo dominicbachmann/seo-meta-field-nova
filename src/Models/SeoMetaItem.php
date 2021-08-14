@@ -1,6 +1,6 @@
 <?php
 
-namespace Gwd\SeoMeta\Models;
+namespace Dominicbachmann\SeoMeta\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

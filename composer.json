@@ -1,13 +1,13 @@
 {
-    "name": "gwd/seo-meta-nova-field",
-    "description": "A Laravel Nova field which adds all SEO related meta fields to an Resource.",
+    "name": "dominicbachmann/seo-meta-nova-field",
+    "description": "A form from gwd/seo-meta-nova-field translated to german.",
     "license": "MIT",
     "type": "library",
-    "homepage": "https://github.com/AndreasGJ/seo-meta-field-nova",
+    "homepage": "https://github.com/dominicbachmann/seo-meta-field-nova",
     "authors": [
         {
-            "name": "Andreas Gade Jensen",
-            "email": "andreasgadej@gmail.com"
+            "name": "Dominic Bachmann",
+            "email": "dominic.bachmann4@gmail.com"
         }
     ],
     "keywords": [
@@ -19,13 +19,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Gwd\\SeoMeta\\": "src/"
+            "Dominicbachmann\\SeoMeta\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Gwd\\SeoMeta\\FieldServiceProvider"
+                "Dominicbachmann\\SeoMeta\\FieldServiceProvider"
             ]
         }
     },

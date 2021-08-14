@@ -1,5 +1,5 @@
 <?php
-namespace Gwd\SeoMeta\Helper;
+namespace Dominicbachmann\SeoMeta\Helper;
 
 use Carbon\Carbon;
 
