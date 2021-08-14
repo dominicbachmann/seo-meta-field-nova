@@ -2,7 +2,7 @@
     <default-field :field="field" :errors="errors">
         <template slot="field">
             <div class="form-group mb-3">
-                <label class="mb-1 block">Title:</label>
+                <label class="mb-1 block">Titel:</label>
                 <input
                     :id="field.name + '-title'"
                     type="text"
@@ -18,7 +18,7 @@
                 >{{ field.title_format.replace(':text', value.title || '') }}</p>
             </div>
             <div class="form-group mb-3">
-                <label class="mb-1 block">Description:</label>
+                <label class="mb-1 block">Beschreibung:</label>
                 <textarea
                     class="w-full form-control form-input form-input-bordered py-3 h-auto"
                     :id="field.name + '-description'"
@@ -38,7 +38,7 @@
                 />
             </div>
             <div class="form-group mb-3">
-                <label class="mb-1 block">Follow:</label>
+                <label class="mb-1 block">Robots:</label>
                 <select-control
                     :id="field.name + '-follow'"
                     v-model="value.follow_type"
@@ -54,7 +54,7 @@
                 </select-control>
             </div>
             <div class="form-group mb-3">
-                <label class="mb-1 block">Image:</label>
+                <label class="mb-1 block">Bild:</label>
                 <seo-media
                     :value="field.image_url"
                     :file="imageFile"

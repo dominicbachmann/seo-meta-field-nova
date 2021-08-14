@@ -2,13 +2,13 @@
     <panel-item :field="field">
         {{ field.name }}
         <div slot="value" class="seo-meta-detail">
-            <b v-if="!hasSeo">You need some SEO data</b>
+            <b v-if="!hasSeo">Füge SEO Informationen hinzu</b>
             <button
                 type="button"
                 class="btn btn-primary btn-default"
                 @click="showSeoPreviews = !showSeoPreviews"
                 v-if="hasSeo"
-            >{{ showSeoPreviews ? 'Hide' : 'Show' }} SEO previews</button>
+            >{{ showSeoPreviews ? 'Verstecke' : 'Zeige' }} SEO Vorschau</button>
             <div class="seo-meta-detail__previews" v-if="showSeoPreviews && hasSeo">
                 <div class="seo-meta-detail__wrapper">
                     <div class="seo-meta-detail__wrapper__label">Google</div>
