@@ -2,7 +2,7 @@
     <default-field :field="field" :errors="errors">
         <template slot="field">
             <div class="form-group mb-3">
-                <label class="mb-1 block">Titel:</label>
+                <label class="mb-1 block">Titel</label>
                 <input
                     :id="field.name + '-title'"
                     type="text"
@@ -18,27 +18,27 @@
                 >{{ field.title_format.replace(':text', value.title || '') }}</p>
             </div>
             <div class="form-group mb-3">
-                <label class="mb-1 block">Beschreibung:</label>
+                <label class="mb-1 block">Beschreibung</label>
                 <textarea
                     class="w-full form-control form-input form-input-bordered py-3 h-auto"
                     :id="field.name + '-description'"
-                    placeholder="Enter SEO description"
+                    placeholder="SEO Beschreibung"
                     v-model="value.description"
                     @input="setHasChanged"
                 />
             </div>
             <div class="form-group mb-3">
-                <label class="mb-1 block">Keywords:</label>
+                <label class="mb-1 block">Keywords</label>
                 <textarea
                     class="w-full form-control form-input form-input-bordered py-3 h-auto"
                     :id="field.name + '-keywords'"
-                    placeholder="Enter SEO keywords"
+                    placeholder="SEO Keywords"
                     v-model="value.keywords"
                     @input="setHasChanged"
                 />
             </div>
             <div class="form-group mb-3">
-                <label class="mb-1 block">Robots:</label>
+                <label class="mb-1 block">Robots</label>
                 <select-control
                     :id="field.name + '-follow'"
                     v-model="value.follow_type"
@@ -54,7 +54,7 @@
                 </select-control>
             </div>
             <div class="form-group mb-3">
-                <label class="mb-1 block">Bild:</label>
+                <label class="mb-1 block">Bild</label>
                 <seo-media
                     :value="field.image_url"
                     :file="imageFile"
