@@ -1,6 +1,6 @@
 {
     "name": "dominicbachmann/seo-meta-nova-field",
-    "description": "A form from gwd/seo-meta-nova-field translated to german.",
+    "description": "A fork from gwd/seo-meta-nova-field translated to german.",
     "license": "MIT",
     "type": "library",
     "homepage": "https://github.com/dominicbachmann/seo-meta-field-nova",
