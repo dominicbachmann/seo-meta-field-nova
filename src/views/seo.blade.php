@@ -1,5 +1,5 @@
 @php
-if (isset($page) && $page && method_exists($page, 'getSeoMeta')) {
+if (isset($page) && $page && $page->getSeoMeta()) {
     $seo = $page->getSeoMeta();
 } elseif (isset($seo) && $seo && is_array($seo) && isset($seo['title'])) {
     $seo = $seo;
